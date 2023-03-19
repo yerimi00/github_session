@@ -201,10 +201,16 @@ button {
   color: var(--cardColor);
   display: flex;
   align-items: center;
+  border-bottom: 5px solid var(--bigCircle);
+}
+.main_whatIDo_card:hover {
+  border-bottom: 5px solid var(--Green);
+  transition: all 0.4s;
 }
 
 .main_whatIDo_content {
   margin-left: 50px;
+  position: absolute;
 }
 .main_whatIDo_text {
   margin-top: 15px;
