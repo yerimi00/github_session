@@ -11,6 +11,7 @@
   --navTitleFontSize: 36px;
   --textFontSize: 18px;
   --titleFontSize: 48px;
+  --bigCircle: #212121;
 }
 
 html {
@@ -68,9 +69,10 @@ button {
 
 .introduce {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 130px;
+  width: 1000px;
 }
 .introduce_title {
   font-size: var(--titleFontSize);
@@ -104,10 +106,60 @@ button {
 .main {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin-top: 50px;
 }
 .main_title {
   font-size: var(--titleFontSize);
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main_text {
+  width: 745px;
+  text-align: center;
+}
+
+.main_info {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.main_info_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--textFontSize);
+  flex-direction: column;
+}
+.main_info_title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.big-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--bigCircle);
+  position: relative;
+  margin-bottom: 15px;
+}
+.small-circle {
+  width: 12px;
+  height: 12px;
+  background-color: var(--Green);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+.big-circle:hover > .small-circle {
+  width: 100px;
+  height: 100px;
 }
