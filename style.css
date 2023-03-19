@@ -12,6 +12,7 @@
   --textFontSize: 18px;
   --titleFontSize: 48px;
   --bigCircle: #212121;
+  --cardColor: #535353;
 }
 
 html {
@@ -124,8 +125,8 @@ button {
 .main_title {
   font-size: var(--titleFontSize);
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-top: 120px;
 }
 
 .main_text {
@@ -147,6 +148,8 @@ button {
   font-size: var(--textFontSize);
   flex-direction: column;
   position: relative;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .main_info_title {
   font-weight: bold;
@@ -183,15 +186,35 @@ button {
   text-align: center;
   width: 300px;
 }
-.main_whatIDO {
-  width: 1300px;
+.main_whatIDo {
+  display: flex;
+  width: 1200px;
+  margin-top: 50px;
+  justify-content: space-between;
 }
 
-.main_whatIDO_content {
-}
-
-.main_whatIDO_card {
+.main_whatIDo_card {
   width: 350px;
-  height: 250px;
+  height: 230px;
   background-color: var(--bigCircle);
+  font-size: var(--navTitleFontSize);
+  color: var(--cardColor);
+  display: flex;
+  align-items: center;
+}
+
+.main_whatIDo_content {
+  margin-left: 50px;
+}
+.main_whatIDo_text {
+  margin-top: 15px;
+}
+
+.main_skills {
+  width: 1200px;
+  height: 240px;
+  background-color: var(--bigCircle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
