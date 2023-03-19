@@ -236,3 +236,10 @@ button {
   font-size: var(--skillTextSize);
   color: var(--Green);
 }
+
+.footer {
+  margin-top: 110px;
+  text-align: center;
+  color: var(--Gray);
+  margin-bottom: 50px;
+}
