@@ -8,11 +8,13 @@
   --Green: #27ae60;
   --GreenHover: rgba(39, 174, 96, 0.5);
   --Gray: #4f4f4f;
+  --bigCircle: #212121;
+  --cardColor: #535353;
   --navTitleFontSize: 36px;
   --textFontSize: 18px;
   --titleFontSize: 48px;
-  --bigCircle: #212121;
-  --cardColor: #535353;
+  --skillTitleSize: 72px;
+  --skillTextSize: 24px;
 }
 
 html {
@@ -221,6 +223,16 @@ button {
   height: 240px;
   background-color: var(--bigCircle);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+}
+
+.main_skills_title {
+  font-size: var(--skillTitleSize);
+  color: var(--Gray);
+}
+.main_skills_text {
+  font-size: var(--skillTextSize);
+  color: var(--Green);
 }
