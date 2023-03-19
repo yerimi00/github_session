@@ -232,6 +232,12 @@ button {
   font-size: var(--skillTitleSize);
   color: var(--Gray);
 }
+
+.main_skills_title:hover {
+  color: var(--mainTextHover);
+  transition: all 0.3s;
+}
+
 .main_skills_text {
   font-size: var(--skillTextSize);
   color: var(--Green);
