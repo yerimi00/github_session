@@ -34,9 +34,7 @@ body {
 a {
   text-decoration: none;
 }
-a:hover {
-  color: var(--mainTextHover);
-}
+
 nav {
   width: 1200px;
   display: flex;
@@ -54,6 +52,12 @@ nav {
   width: 200px;
   display: flex;
   justify-content: space-between;
+}
+
+.subTitle a:hover {
+  color: var(--mainTextHover);
+
+  transition: all 0.3s;
 }
 nav a {
   color: var(--mainTextColor);
