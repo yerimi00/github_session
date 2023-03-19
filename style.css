@@ -3,11 +3,14 @@
 :root {
   --backgroundColor: #171717;
   --mainTextColor: #ffffff;
+  --mainTextHover: rgba(255, 255, 255, 0.5);
   --subTextColor: #828282;
   --Green: #27ae60;
+  --GreenHover: rgba(39, 174, 96, 0.5);
   --Gray: #4f4f4f;
-  --titleFontSize: 36px;
+  --navTitleFontSize: 36px;
   --textFontSize: 18px;
+  --titleFontSize: 48px;
 }
 
 html {
@@ -22,6 +25,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 1440px;
+  color: var(--mainTextColor);
 }
 a {
   text-decoration: none;
@@ -31,13 +35,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 .mainTitle {
-  font-size: var(--titleFontSize);
+  font-size: var(--navTitleFontSize);
   font-weight: bold;
+  color: #ff7710;
 }
 .subTitle {
-  font-size: var(--subTextColor);
+  font-size: var(--textFontSize);
   width: 200px;
   display: flex;
   justify-content: space-between;
@@ -51,6 +57,57 @@ body {
   display: flex;
   flex-direction: column;
 }
-div {
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   color: var(--mainTextColor);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.introduce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.introduce_title {
+  font-size: var(--titleFontSize);
+  font-weight: bold;
+  margin-right: 150px;
+  margin-bottom: 10px;
+}
+.introduce_subTitle {
+  color: var(--subTextColor);
+  margin-bottom: 35px;
+}
+.introduce_button {
+  width: 130px;
+  height: 40px;
+  background-color: var(--Green);
+  border: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.introduce_button:hover {
+  background-color: var(--GreenHover);
+  color: var(--mainTextHover);
+}
+.introduce_img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.main_title {
+  font-size: var(--titleFontSize);
+  font-weight: bold;
 }
