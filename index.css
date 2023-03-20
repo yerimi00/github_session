@@ -1,12 +1,3 @@
-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  color: var(--mainTextColor);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
 .introduce {
   display: flex;
   justify-content: space-between;
