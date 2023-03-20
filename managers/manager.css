@@ -9,7 +9,7 @@
 }
 .main_content_title {
   font-size: var(--navTitleFontSize);
-  color: var(--cardColor);
+  color: var(--Gray);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
