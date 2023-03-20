@@ -73,9 +73,11 @@ nav a {
   color: var(--Green);
   font-size: var(--skillTextSize);
 }
-.mg{
+.mgb5 {
   margin-bottom: 5px;
-
+}
+.mgb70 {
+  margin-bottom: 70px;
 }
 button {
   -webkit-appearance: none;
@@ -84,4 +86,10 @@ button {
   color: var(--mainTextColor);
   cursor: pointer;
   transition: 0.3s;
+}
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  color: var(--Gray);
+  margin-bottom: 50px;
 }
