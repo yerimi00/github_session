@@ -2,7 +2,7 @@
 깃허브 세션을 위한 Repo 입니다!
 
 ## 수정 팁!
-- ### About의 정보를 추가 하기 싫다면 class="main_info_content" 이 있는 div를 지우시면 됩니다.
+- ### About의 개인정보를 넣기가 껄끄럽다! 하시는 분! class="main_info_content" 이 있는 div를 지우시면 됩니다.
 ![code2](https://user-images.githubusercontent.com/76903801/227125399-73a051d4-7cf7-43b0-8565-8fdf2cec7b71.png)
 
 
